@@ -1,62 +1,7 @@
 1.20.1 Changelog
-47.3
-====
- - 47.3.0 1.20.1 RB 3
-          https://forums.minecraftforge.net/topic/139825-forge-473-minecraft-1201/
-
 47.2
 ====
- - 47.2.36 Bump gradle to 8.8
- - 47.2.35 Bump gradle and java runtime version on team city
- - 47.2.34 Fix LevelSettings ignoring data configuration. Close #9938
- - 47.2.33 Fix erroneous patch in FireBlock. Closes #9996
- - 47.2.32 Fix early window crash when parsing options.txt (#9934)
-           Backport of #9933
- - 47.2.31 Prevent mixins from crashing the game when there are missing mods (#9916)
-           1.20.1 backport of 49.0.14
- - 47.2.30 Fix NPE when acceptableValues in defineInList() does not allow nulls, backport of #9903 (#9907)
-           Co-authored-by: J-RAP <SrRapero720@hotmail.com>
- - 47.2.29 Fix Crowdin (#9929)
- - 47.2.28 Optimise capabilities a tad, backport of #9886 (#9911)
- - 47.2.27 Add helper method to `OnDatapackSyncEvent`, backport of #9901 (#9919)
- - 47.2.26 Add CPU usage config option to early window, hide by default, backport of #9866 (#9915)
- - 47.2.25 Fix slightly offset mods screen link positioning, backport of #9860 (#9861)
-           Co-authored-by: Dennis C <11262040+XFactHD@users.noreply.github.com>
- - 47.2.24 Make common config screen registration tasks easier, backport of #9884 (#9912)
- - 47.2.23 Add Leaves method to ModelProvider.java (#9889)
- - 47.2.22 [1.20.1] Bump CoreMods and ASM (#9897)
-           - CoreMods 5.1.2 -> 5.1.6
-           - ASM 9.6 -> 9.7
- - 47.2.21 Bump some deps (#9880)
-           - CoreMods 5.0.1 -> 5.1.2
-           - ASM 9.5 -> 9.6
-           - Installer 2.1 -> 2.2
-           - Installer tools 1.3.0 -> 1.4.1
- - 47.2.20 Fix missing patch for Item.onInventoryTick. Closes #9812
- - 47.2.19 Make common DisplayTest registration tasks easier (#9823)
- - 47.2.18 Optimise ForgeConfigSpec and make Range public (#9824)
-           Backport of #9810 to 1.20.1
- - 47.2.17 Datagen addOptionalTag/s methods that allow passing the TagKey itself instead of passing the location (#9807) (#9808)
- - 47.2.16 Update VersionSupportMatrix.java (#9805)
- - 47.2.15 Backport of Registries optimization, now uses fastutils collections to minimize boxing
- - 47.2.14 Fix patch offset
- - 47.2.13 Fix fire related mobs not taking enough freezing damage. Closes #9686
- - 47.2.12 Fix TagLoader error not printing tag name correctly. Closes #9693
- - 47.2.11 Fix LoadingErrorScreen inner headers are not centered. Closes #9687
- - 47.2.10 Rework KeyModifiers system to properly allow keybinds to be triggered when multiple modifiers are pressed.
-           Fix setting keybinds whel using keyboard inputs to select the menu. Closes #9793
- - 47.2.9  Fix KeyModifiers not being properly taken into account. Closes #9806
- - 47.2.8  Don't turn off VSync when rendering from Minecraft context (#9801)
-           Co-authored-by: embeddedt <42941056+embeddedt@users.noreply.github.com>
- - 47.2.7  Fix rare crash with early display window, fixes MinecraftForge#9673 (#9799)
- - 47.2.6  Fix tag loading being unordered. Closes #9774
- - 47.2.5  Fix misaligned patch in RegistryDataLoader
- - 47.2.4  Backport CrashReportAnalyser to 1.20.1 (#9757)
- - 47.2.3  Minor MDK changes (#9752)
- - 47.2.2  Improve mod description formatting in mods screen (#9769)
-           Co-authored-by: Su5eD <su5ed@outlook.com>
- - 47.2.1  [1.20.1] Improve mod loading error message for errors inside mod constructors (#9707)
- - 47.2.0  1.20.1 RB
+ - 47.2.0 1.20.1 RB
 
 47.1
 ====
