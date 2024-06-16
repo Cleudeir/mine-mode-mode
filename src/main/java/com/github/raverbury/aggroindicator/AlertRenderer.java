@@ -26,6 +26,7 @@ import net.minecraft.world.phys.Vec3;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 
+
 public class AlertRenderer {
    private static final List<LivingEntity> renderedEntities = new ArrayList();
    private static final Set<UUID> entityUuidSet = new HashSet();
@@ -41,16 +42,17 @@ public class AlertRenderer {
    }
 
    public static void setTarget(UUID mobUuid, UUID targetUuid) {
-      Minecraft client = Minecraft.m_91087_();
-      Player player = client.f_91074_;
-      if (player != null) {
-         if (targetUuid != null && player.m_20148_().equals(targetUuid)) {
+    Minecraft client = Minecraft.getInstance();
+    Player player = client.player;
+    if (player != null) {
+        UUID playerUuid = player.getUUID();
+        if (targetUuid != null && playerUuid.equals(targetUuid)) {
             entityUuidSet.add(mobUuid);
-         } else {
+        } else {
             entityUuidSet.remove(mobUuid);
-         }
-      }
-   }
+        }
+    }
+}
 
    public static boolean shouldDrawThisUuid(UUID uuid) {
       return entityUuidSet.contains(uuid);
