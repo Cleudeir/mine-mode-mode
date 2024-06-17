@@ -6,5 +6,6 @@
         "raverbury",
         "tesselator",
         "Tesselator"
-    ]
+    ],
+    "CodeGPT.apiKey": "Ollama"
 }
